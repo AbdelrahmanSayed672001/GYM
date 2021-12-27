@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.loginform">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginForm">
+        <activity android:name=".UserHome"></activity>
+        <activity android:name=".UserLogin" />
+        <activity android:name=".searchForClientById" />
+        <activity android:name=".updateClient" />
+        <activity android:name=".deleteClient" />
+        <activity android:name=".addClient" />
+        <activity android:name=".ClientMenu" />
+        <activity android:name=".searchForAdminById" />
+        <activity android:name=".updateAdmin" />
+        <activity android:name=".deleteAdmin" />
+        <activity android:name=".addAdmin" />
+        <activity android:name=".AdminMenu" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".updateUser" />
+        <activity android:name=".deleteUser" />
+        <activity android:name=".searchForUserById" />
+        <activity android:name=".addUser" />
+        <activity android:name=".loginForm" />
+        <activity android:name=".register" />
+        <activity android:name=".AdminHomeUser" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

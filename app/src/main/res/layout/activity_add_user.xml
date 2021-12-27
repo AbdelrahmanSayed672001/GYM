@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".addUser">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="417dp"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/image_5" />
+
+    <LinearLayout
+        android:layout_width="346dp"
+        android:layout_height="477dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/idAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ID"
+            android:inputType="textPersonName"
+            android:textColor="#ffff8800"
+            android:textColorHint="#ffff8800" />
+
+        <EditText
+            android:id="@+id/nameAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textColor="#ffff8800"
+            android:textColorHint="#ffff8800" />
+
+        <EditText
+            android:id="@+id/ageAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName"
+            android:textColor="#ffff8800"
+            android:textColorHint="#ffff8800" />
+
+        <EditText
+            android:id="@+id/passwordAddUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#ffff8800"
+            android:textColorHint="#ffff8800" />
+
+        <Button
+            android:id="@+id/addUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add user" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
